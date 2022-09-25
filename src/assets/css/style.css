@@ -1,0 +1,90 @@
+* {
+  margin-top: 10px;
+  /* background-color:  #e6e6e6; */
+}
+
+.side {
+  background-color: #d9d9d9;
+  min-height: 95vh;
+ /* overflow: scroll; */
+}
+
+
+
+.categoryList{
+  width: 20vw;
+  padding: 10px;
+  border-radius: 33px;
+  border: none;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+}
+
+.categoryList:hover{
+  transform: scale(1.02);
+}
+
+.inputField {
+  width: 35vw;
+  margin-left: 33px;
+  padding: 20px;
+  border-radius: 33px;
+  border: none;
+  background-color: #b3b3b3;
+}
+
+.inputField::placeholder {
+  font-size: 15px;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list {
+  display: inline-block;
+  text-align: left;
+}
+
+.listItem {
+  width: 35vw;
+  padding-bottom: 10px;
+  border-radius: 33px;
+  border: none;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.listItem:hover {
+  transform: scale(1.02);
+}
+
+.listIcon1 {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: 0px;
+  color: red;
+}
+
+.listIcon2 {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 0px;
+  color: green;
+}
+
+
+
+/* .listItem span{
+  background-color: white;
+}
+
+.listIcon span{
+  background-color: white;
+} */
